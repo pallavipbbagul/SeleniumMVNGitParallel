@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-26T17:06:33 IST" name="Suite" finished-at="2024-01-26T17:06:58 IST" duration-ms="24528">
+    <groups>
+    </groups>
+    <test started-at="2024-01-26T17:06:33 IST" name="Test1" finished-at="2024-01-26T17:06:42 IST" duration-ms="8901">
+      <class name="testPackage.DemoClass">
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:testPackage.DemoClass@5fa07e12]" started-at="2024-01-26T17:06:33 IST" name="lunchBrowser" finished-at="2024-01-26T17:06:37 IST" duration-ms="3601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="RunEdge()[pri:0, instance:testPackage.DemoClass@5fa07e12]" started-at="2024-01-26T17:06:40 IST" name="RunEdge" finished-at="2024-01-26T17:06:41 IST" duration-ms="1494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunEdge -->
+      </class> <!-- testPackage.DemoClass -->
+      <class name="testPackage.SecondClass">
+        <test-method is-config="true" signature="lunchBrowser2(java.lang.String)[pri:0, instance:testPackage.SecondClass@55b53d44]" started-at="2024-01-26T17:06:37 IST" name="lunchBrowser2" finished-at="2024-01-26T17:06:39 IST" duration-ms="2806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser2 -->
+        <test-method signature="SecondClassRunEdge()[pri:0, instance:testPackage.SecondClass@55b53d44]" started-at="2024-01-26T17:06:40 IST" name="SecondClassRunEdge" finished-at="2024-01-26T17:06:42 IST" duration-ms="2465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondClassRunEdge -->
+      </class> <!-- testPackage.SecondClass -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-01-26T17:06:42 IST" name="Test2" finished-at="2024-01-26T17:06:48 IST" duration-ms="5832">
+      <class name="testPackage.ThirdClass">
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:testPackage.ThirdClass@72cde7cc]" started-at="2024-01-26T17:06:44 IST" name="lunchBrowser" finished-at="2024-01-26T17:06:45 IST" duration-ms="1121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="RunChrome()[pri:0, instance:testPackage.ThirdClass@72cde7cc]" started-at="2024-01-26T17:06:45 IST" name="RunChrome" finished-at="2024-01-26T17:06:48 IST" duration-ms="3066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunChrome -->
+      </class> <!-- testPackage.ThirdClass -->
+      <class name="testPackage.FourthClass">
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:testPackage.FourthClass@5fd4f8f5]" started-at="2024-01-26T17:06:42 IST" name="lunchBrowser" finished-at="2024-01-26T17:06:44 IST" duration-ms="1641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="RunChrome()[pri:0, instance:testPackage.FourthClass@5fd4f8f5]" started-at="2024-01-26T17:06:45 IST" name="RunChrome" finished-at="2024-01-26T17:06:48 IST" duration-ms="3023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunChrome -->
+      </class> <!-- testPackage.FourthClass -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-01-26T17:06:48 IST" name="Test3" finished-at="2024-01-26T17:06:58 IST" duration-ms="9724">
+      <class name="testPackage.ThirdClass">
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:testPackage.ThirdClass@41e1e210]" started-at="2024-01-26T17:06:51 IST" name="lunchBrowser" finished-at="2024-01-26T17:06:54 IST" duration-ms="2817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="RunChrome()[pri:0, instance:testPackage.ThirdClass@41e1e210]" started-at="2024-01-26T17:06:54 IST" name="RunChrome" finished-at="2024-01-26T17:06:58 IST" duration-ms="3522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunChrome -->
+      </class> <!-- testPackage.ThirdClass -->
+      <class name="testPackage.FourthClass">
+        <test-method is-config="true" signature="lunchBrowser(java.lang.String)[pri:0, instance:testPackage.FourthClass@be35cd9]" started-at="2024-01-26T17:06:48 IST" name="lunchBrowser" finished-at="2024-01-26T17:06:51 IST" duration-ms="3380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="RunChrome()[pri:0, instance:testPackage.FourthClass@be35cd9]" started-at="2024-01-26T17:06:54 IST" name="RunChrome" finished-at="2024-01-26T17:06:57 IST" duration-ms="3301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RunChrome -->
+      </class> <!-- testPackage.FourthClass -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
